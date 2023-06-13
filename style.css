@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url('images/onlinelearning.jpeg');
+    background-size:cover;
+    background-position: center;
+    color:#080808;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+
+}
+header h1{
+    font-size: 85px;
+    margin-top:50px;
+    font-weight: 500;
+    text-align: right;
+}
+header p{
+    font-size: 20px ;
+    margin:0.5rem 0;
+
+}
+
+header img{
+    margin-top: 80px;
+}
+
+header a.cta{
+    background-color: #fff;
+    border:1px solid #333;
+    color:#333;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    border-radius: 60px;
+    margin-top: 1rem;
+    transition:all 0.2s;
+
+}
+
+header a.cta:hover{
+    background-color: #333;
+    color:#fff;
+    cursor:pointer;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top:0;
+    width:100%;
+    padding:20px 7%;
+    float:right;
+}
+
+nav img{
+    height:40px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: right;
+    float:right;
+}
+
+nav a{
+    color:#0e0d0d;
+    margin:0 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav strong{
+    float:right;
+    padding-left: 140px;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+
+}
+
+section{
+    width:200%;
+    text-align:center;
+    margin: 2rem;
+    height: 100%;
+}
+
+section h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+section input[type="text"],
+section input[type="email"],
+section textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border:1px solid #333;
+
+
+}
+
+section button[type="submit"]
+{
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+section button[type="submit"]:hover
+{
+    background-color: #fff;
+    color: #333;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+
+footer p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+footer a{
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: column;
+    }
+}
+#services{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(129, 187, 132);
+    height:85vh;
+    
+
+}
+
+#services h2{
+    margin-bottom: 5rem;
+}
+
+.service{
+    width: 30%;
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: center;
+}
+.service h3{
+    margin-bottom: 1rem;
+}
+.service img{
+    width:200px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    height:200px;
+}
+@media only screen and (max-width:600px){
+    .service{
+        width:100%;
+        margin:2rem 0;
+    }
+}
+
+#about{
+    padding:20px 10%;
+}
+#about img{
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width:100%
+  }
+
+  .contact {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 6px;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+  
+  .cta-button {background-color: #4CAF50;}
+
+  .cta-button:hover {
+    background-color: #656865;
+    color: white;
+  }
